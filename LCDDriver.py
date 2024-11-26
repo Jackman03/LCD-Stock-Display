@@ -1,3 +1,6 @@
+#need to possibly redo this to allow for scrolling.
+
+
 #jackson Vaughn
 #LCD Driver for the HD44708 I2C
 #!/usr/bin/env python3
@@ -6,7 +9,7 @@ import smbus
 
 #This is a amalgamation of youtube tutorials.
 
-#need to possibly redo this to allow for scrolling.
+
 
 #The address the LCD lives on, this may vary.
 #do i2cdetect -y 1 to find this address and change it here
